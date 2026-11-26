@@ -21,7 +21,8 @@ Outbox パターン / Saga / SLO とエラーバジェット / 無停止スキ�
 
 **[sql-tuning-lab](https://github.com/ruke79/sql-tuning-lab)**
 PostgreSQL のクエリチューニングを、推測ではなく測定で確かめたラボ。
-27個の実験結果を数値つきで残しています。
+命題51件の実行検証 (Spring 7 · JPA 7 · 並行処理 5 · JVM 7 · DB 25)
+         + Kafka MSA 命題7件を数値つきで残しています。
 途中、自分の測定値が100倍以上ずれていたことに気づいて訂正しました。
 
 **[web-security-lab](https://github.com/ruke79/web-security-lab)**
