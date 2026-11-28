@@ -25,6 +25,13 @@ PostgreSQL のクエリチューニングを、推測ではなく測定で確か
 Kafka MSA 命題7件を、数値つきで残しています。
 途中、自分の測定値が100倍以上ずれていたことに気づいて訂正しました。
 
+**[kafka](https://github.com/ruke79/kafka)**
+RabbitMQ の注文パイプラインを Go（producer）・Kotlin / C#（consumer）で
+実装し、Kafka との違いを実測したラボ。outbox、publisher confirm、
+リトライ梯子、quorum キュー、ストリーム。
+エラーが一行も出ないまま配信が止まる事象を、クライアント自身の
+接続イベントを計測して原因を特定しました。
+
 **[web-security-lab](https://github.com/ruke79/web-security-lab)**
 Web の脆弱性を、攻撃側と防御側の両方から実装して確認したラボ。
 WebAuthn、CSP、セッション管理など。
